@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,500;0,700;1,700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(img/juliana-kozoski-IoQioGLrz3Y-unsplash.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 1200px 600px;
+    align-items: center;
+    
+ }
+
+ .menu{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .logo {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 800 ;
+ }
+
+ .menu .navbar ul li {
+    position: relative;
+    float: left;
+ }
+
+ .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    font-weight: 600;
+ }
+
+ .menu-icono {
+    width: 25px;
+ }
+
+ .menu label {
+    cursor: pointer;
+    display: none;
+ }
+
+ .header-txt h1 {
+    font-size: 70px;
+    color: rgb(3, 170, 170);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+ }
+
+ .header-txt p {
+    color: #d7f4f5;
+    font-size: 25px;
+ }
+
+ .general {
+    font-size: 25px;
+    color: #020202;
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(img/cam.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+
+.info-1 {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(img/saketh-garuda-SHY-CKpYjrE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+}
+
+.info-2 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   background-color: aqua;
+}
+
+
+
+
+
