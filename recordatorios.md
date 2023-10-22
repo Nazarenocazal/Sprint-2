@@ -12,7 +12,7 @@ Crear un repositorio(preguntar).
 
 Boostrap.
 No olvidar linkear para que funcione.
-Uar para sprint-2 (carrousel basico sin descripcion, nav complejo y adaptarlo).
+Usar para sprint-2 (carrousel basico sin descripcion, nav complejo y adaptarlo).
 
 Responsive design.
 @media(min-width ...px) tamaño minimo que va a ocupar la pagina.
