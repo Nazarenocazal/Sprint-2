@@ -17,15 +17,6 @@ body{
     margin: 0 auto;
 }
 
-.header{
-    background-image: url(img/juliana-kozoski-IoQioGLrz3Y-unsplash.jpg);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 1200px 600px;
-    align-items: center;
-    
- }
-
  .menu{
     position: absolute;
     top: 0%;
@@ -36,40 +27,6 @@ body{
     justify-content: space-between;
  }
 
- .logo {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-weight: 800 ;
- }
-
- .menu .navbar ul li {
-    position: relative;
-    float: left;
- }
-
- .menu .navbar ul li a {
-    font-size: 18px;
-    padding: 20px;
-    color: #ffffff;
-    display: block;
-    font-weight: 600;
- }
-
- .menu-icono {
-    width: 25px;
- }
-
- .menu label {
-    cursor: pointer;
-    display: none;
- }
-
- .header-txt h1 {
-    font-size: 70px;
-    color: rgb(3, 170, 170);
-    text-transform: uppercase;
-    margin-bottom: 20px;
- }
 
  .header-txt p {
     color: #d7f4f5;
@@ -84,7 +41,9 @@ body{
     background-image: url(img/cam.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
  }
+ 
 
 .info-1 {
     font-size: 20px;
@@ -95,6 +54,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1200px;
+    font-style: oblique;
 }
 
 .info-2 {
@@ -103,6 +63,19 @@ body{
    text-align: center;
    background-color: aqua;
 }
+
+.container-global {
+   width: 80%;
+   max-width: 1200px;
+   min-width: 480px;
+   margin:0 auto;
+   overflow:hidden;
+}
+
+@media (min-width: 480px) {
+   
+}
+ 
 
 
 
